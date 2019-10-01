@@ -115,6 +115,26 @@ ul li:hover{
   color: white; 
 }
 
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-box h3 {
+  font-weight: bold;
+}
+
+.feature-box p {
+  color: gray;
+}
+
 .container {
   width: 90%;
   margin-left: auto;
