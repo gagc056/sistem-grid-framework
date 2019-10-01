@@ -132,3 +132,27 @@ p {
 .col-6-sm {
   width: 49.99%;
 }
+
+.col-7-sm {
+	width: 58.33%;
+}
+
+.col-8-sm {
+	width: 66.66%;
+}
+
+.col-9-sm {
+	width: 74.99%;
+}
+
+.col-10-sm {
+	width: 83.33%;
+}
+
+.col-11-sm {
+	width: 91.66%;
+}
+
+.col-12-sm {
+	width: 100%;
+}
