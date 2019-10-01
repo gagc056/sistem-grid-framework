@@ -226,3 +226,10 @@ p {
     display: block;
   }
 }
+
+@media only screen and (min-width: 960px) { 
+  .container {
+    width: 75%;
+    max-width: 60rem;
+  }
+}
