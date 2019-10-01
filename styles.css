@@ -77,6 +77,44 @@ p {
   text-align: justify;
 }
 
+*{transition:all 0.3s ease-in-out;}
+
+.container{
+  clear:both;
+  overflow:auto;
+}
+
+nav {
+  float:right;
+  background-color: #ff4c68;
+  padding-right: 10px;
+}
+
+.logo h1 {
+  float:left;
+}
+
+ul li{
+  display: inline-block;
+  padding: 2px;
+  font-size:20px;
+  color: white;
+}
+
+ul li:hover{
+  color:black; 
+}
+
+#title {
+  background: #ff4c68;
+}
+
+#title h1 {
+  line-height: 1.5;
+  font-weight: bold;
+  color: white; 
+}
+
 .container {
   width: 90%;
   margin-left: auto;
