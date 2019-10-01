@@ -106,5 +106,29 @@ p {
 .col-10,
 .col-11,
 .col-12 {
-  width: 92%;
+  width: 100%;
+}
+
+.col-1-sm {
+  width: 8.33%;
+}
+
+.col-2-sm {
+  width: 16.66%;
+}
+
+.col-3-sm {
+  width: 25%;
+}
+
+.col-4-sm {
+  width: 33.33%;
+}
+
+.col-5-sm {
+  width: 41.66%;
+}
+
+.col-6-sm {
+  width: 49.99%;
 }
