@@ -166,3 +166,9 @@ p {
 .hidden-sm {
   display: none;
 }
+
+@media only screen and (min-width: 640px) {
+  .container {
+    width: 80%;
+  }
+}
