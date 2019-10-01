@@ -156,3 +156,13 @@ p {
 .col-12-sm {
 	width: 100%;
 }
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hidden-sm {
+  display: none;
+}
