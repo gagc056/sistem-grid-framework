@@ -110,29 +110,10 @@ ul li:hover{
 }
 
 #title h1 {
+  font-size: 20px;
   line-height: 1.5;
   font-weight: bold;
   color: white; 
-}
-
-#features {
-  padding: 7% 15%;
-  background-color: white;
-  position: relative;
-  z-index: 1;
-}
-
-.feature-box {
-  text-align: center;
-  padding: 5%;
-}
-
-.feature-box h3 {
-  font-weight: bold;
-}
-
-.feature-box p {
-  color: gray;
 }
 
 .container {
@@ -147,7 +128,7 @@ ul li:hover{
 }
 
 .row [class^="col"] {
-  float: left;
+  display: grid;
   margin: 0.5rem 2%;
   min-height: 0.125rem;
 }
@@ -225,69 +206,80 @@ ul li:hover{
   display: none;
 }
 
-@media only screen and (min-width: 640px) {
-  .container {
-    width: 80%;
-  }
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
 }
 
-@media only screen and (min-width: 720px) {
-  .col-1 {
-    width:  8.33%;
-  }
-
-  .col-2 {
-    width: 16.66%;
-  }
-
-  .col-3 {
-    width: 25%;
-  }
-
-  .col-4 {
-    width: 33.33%;
-  }
-
-  .col-5 {
-    width: 41.66%;
-  }
-
-  .col-6 {
-    width: 49.99%;
-  }
-
-  .col-7 {
-    width: 58.33%;
-  }
-
-  .col-8 {
-    width: 66.66%;
-  }
-
-  .col-9 {
-    width: 74.99%;
-  }
-
-  .col-10 {
-    width: 83.33%;
-  }
-
-  .col-11 {
-    width: 91.66%;
-  }
-
-  .col-12 {
-    width: 100%;
-  }
+.feature-box {
+  text-align: center;
   
-  .hidden-sm {
-    display: block;
+}
+
+.feature-box h3 {
+  font-weight: bold;
+}
+
+.feature-box p {
+  color: gray;
+}
+
+.grid {
+  display: block;
+  }
+
+.box {
+  color: white;
+  font-size: 4vw;
+  padding: 10px;
+  background: yellowgreen;
+  margin: 10px 0;
+  text-align: center;
+  }
+
+@media screen and (min-width: 576px) {
+  
+  .grid {
+    display: grid;
+    /* grid-template-rows: repeat(6, 1fr); */
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10px;
+    }
+
+  .box {
+    margin: 0;
+  }
+
+  .box-1 {
+    grid-column: span 12;
+  }
+
+  .box-2 {
+    grid-column: span 6;
+    }
+
+  .box-3 {
+    grid-column: span 4;
+  }
+
+  .box-4 {
+    grid-column: span 3;
+  }
+  .box-6 {
+    grid-column: span 2;
   }
 }
 
-@media only screen and (min-width: 960px) { 
-  .container {
-    width: 75%;
-    max-width: 60rem;
+@media screen and (max-width: 800px) {
+  .grid {
+    display: grid;
+    grid-template-rows: repeat(1fr);
+  }
+
+  .picture img {
+    width: 70%;
+    height: 70%;
   }
 }
