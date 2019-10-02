@@ -94,7 +94,7 @@ nav {
   float: left;
 }
 
-ul li{
+ul li {
   display: inline-block;
   padding: 2px;
   font-size: 20px;
@@ -216,7 +216,7 @@ ul li:hover {
   .box-4 {
     grid-column: span 3;
   }
-  
+
   .box-6 {
     grid-column: span 2;
   }
