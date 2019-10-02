@@ -13,6 +13,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: #333447;
   line-height: 1.5;
+  transition: all 0.3 ease-in-out;
 }
 
 h1 {
@@ -73,10 +74,6 @@ p {
 
 .justify {
   text-align: justify;
-}
-
-* {
-  transition: all 0.3 ease-in-out;
 }
 
 .container {
@@ -222,18 +219,6 @@ ul li:hover {
   grid-column: span 3;
 }
 
-.column-large-6 {
-  grid-column: span 6;
-}
-
-.column-large-5 {
-  grid-column: span 5;
-}
-
-.column-large-4 {
-  grid-column: span 4;
-}
-
 .column-large-3 {
   grid-column: span 3;
 }
@@ -302,22 +287,6 @@ ul li:hover {
     grid-column: span 3;
   }
 
-  .column-md-6 {
-    grid-column: span 6;
-  }
-
-  .column-md-5 {
-    grid-column: span 5;
-  }
-
-  .column-md-4 {
-    grid-column: span 4;
-  }
-
-  .column-md-3 {
-    grid-column: span 3;
-  }
-
   .column-md-2 {
     grid-column: span 2;
   }
@@ -361,22 +330,6 @@ ul li:hover {
 
   .column-sm-7 {
     grid-column: span 7;
-  }
-
-  .column-sm-6 {
-    grid-column: span 6;
-  }
-
-  .column-sm-5 {
-    grid-column: span 5;
-  }
-
-  .column-sm-4 {
-    grid-column: span 4;
-  }
-
-  .column-sm-3 {
-    grid-column: span 3;
   }
 
   .column-sm-6 {
