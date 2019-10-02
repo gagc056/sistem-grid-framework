@@ -219,10 +219,6 @@ ul li:hover {
   grid-column: span 3;
 }
 
-.column-large-3 {
-  grid-column: span 3;
-}
-
 .column-large-2 {
   grid-column: span 2;
 }
