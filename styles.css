@@ -75,11 +75,13 @@ p {
   text-align: justify;
 }
 
-*{transition:all 0.3s ease-in-out;}
+* {
+  transition:all 0.3s ease-in-out;
+}
 
 .container{
-  clear:both;
-  overflow:auto;
+  clear: both;
+  overflow: auto;
 }
 
 nav {
@@ -89,18 +91,18 @@ nav {
 }
 
 .logo h1 {
-  float:left;
+  float: left;
 }
 
 ul li{
   display: inline-block;
   padding: 2px;
-  font-size:20px;
+  font-size: 20px;
   color: white;
 }
 
-ul li:hover{
-  color:black; 
+ul li:hover {
+  color:black;
 }
 
 #title {
@@ -113,7 +115,7 @@ ul li:hover{
   line-height: 1.5;
   font-weight: bold;
   padding-left: 5px;
-  color: white; 
+  color: white;
 }
 
 #features {
@@ -125,7 +127,6 @@ ul li:hover{
 
 .feature-box {
   text-align: center;
-  
 }
 
 .feature-box h3 {
@@ -177,7 +178,7 @@ ul li:hover{
 
 .grid {
   display: block;
-  }
+}
 
 .box {
   color: white;
@@ -186,16 +187,15 @@ ul li:hover{
   background: yellowgreen;
   margin: 10px 0;
   text-align: center;
-  }
+}
 
 @media screen and (min-width: 576px) {
   
   .grid {
     display: grid;
-    /* grid-template-rows: repeat(6, 1fr); */
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 10px;
-    }
+  }
 
   .box {
     margin: 0;
@@ -207,7 +207,7 @@ ul li:hover{
 
   .box-2 {
     grid-column: span 6;
-    }
+  }
 
   .box-3 {
     grid-column: span 4;
@@ -216,6 +216,7 @@ ul li:hover{
   .box-4 {
     grid-column: span 3;
   }
+  
   .box-6 {
     grid-column: span 2;
   }
