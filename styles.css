@@ -76,16 +76,16 @@ p {
 }
 
 * {
-  transition:all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
-.container{
+.container {
   clear: both;
   overflow: auto;
 }
 
 nav {
-  float:right;
+  float: right;
   background-color: #ff4c68;
   padding-right: 10px;
 }
@@ -102,7 +102,7 @@ ul li {
 }
 
 ul li:hover {
-  color:black;
+  color: black;
 }
 
 #title {
@@ -190,7 +190,6 @@ ul li:hover {
 }
 
 @media screen and (min-width: 576px) {
-  
   .grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
