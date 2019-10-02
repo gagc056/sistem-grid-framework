@@ -109,9 +109,10 @@ ul li:hover{
 }
 
 #title h1 {
-  font-size: 20px;
+  font-size: 3rem;
   line-height: 1.5;
   font-weight: bold;
+  padding-left: 5px;
   color: white; 
 }
 
